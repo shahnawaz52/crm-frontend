@@ -1,4 +1,3 @@
-import { Jumbotron } from 'react-bootstrap';
 import { useState } from "react";
 import './EntryPage.css';
 import Login from '../../components/Login/Login';
@@ -19,27 +18,28 @@ const EntryPage = () => {
                 break;
             case 'password':
                 setPassword(value);
+                break;
             default:
                 break;
         }
         console.log(name, value);
     }
 
-    const handleOnSubmit = e => {
+    const handleOnSubmit = (e) => {
         e.preventDefault();
         if(!email || !password) {
             alert('Fill up all the form!');
         }
     }
 
-    const handleOnResetSubmit = e => {
+    const handleOnResetSubmit = (e) => {
         e.preventDefault();
         if(!email) {
             alert('Fill up all the form!');
         }
     }
 
-    const handleFormSwitch = formType => {
+    const handleFormSwitch = (formType) => {
         setFormLoad(formType);
     }
 
