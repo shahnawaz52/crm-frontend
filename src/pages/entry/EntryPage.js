@@ -40,6 +40,7 @@ const EntryPage = () => {
     }
 
     const handleFormSwitch = (formType) => {
+        console.log(formType)
         setFormLoad(formType);
     }
 
