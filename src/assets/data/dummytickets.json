@@ -3,7 +3,24 @@
         "id": 1,
         "subject": "Email SSL Certificate",
         "status": "Client response pending",
-        "addedAt": "2023-05-30"
+        "addedAt": "2023-05-30",
+        "history": [
+            {
+                "date": "2023-06-26",
+                "message": "Hola",
+                "messageBy": "client"
+            },   
+            {
+                "date": "2023-06-26",
+                "message": "Hola",
+                "messageBy": "operator"
+            },
+            {
+                "date": "2023-06-26",
+                "message": "Hola",
+                "messageBy": "client"
+            }
+        ]
     },
     {
         "id": 2,
