@@ -4,6 +4,7 @@ import SearchFrom from '../../components/SearchForm/SearchFrom'
 import BreadCrumb from '../../components/BreadCrumb/BreadCrumb'
 import TicketTable from '../../components/TicketTable/TicketTable'
 import tickets from '../../assets/data/dummytickets.json'
+import { Link } from "react-router-dom";
 
 const TicketListPage = () => {
 
@@ -36,7 +37,9 @@ const TicketListPage = () => {
         </Row>
         <Row className='mt-4'>
             <Col>
+            <Link to="/add-ticket">
                 <Button variant='info'>Add New Ticket</Button>
+            </Link>
             </Col>
             <Col className='text-right'>
                 <SearchFrom handleOnChange={handleOnChange} searchString={searchString} />

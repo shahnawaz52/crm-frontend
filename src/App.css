@@ -11,6 +11,30 @@ header {
     grid-area: header;
 }
 
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+.nav a {
+text-decoration: none;
+color: white;
+font-weight: bold;
+padding: 24px 32px;
+}
+
+nav a:hover {
+    background: #08a6c9;
+    color: white;
+  }
+
 main {
     grid-area: main;
     min-height: 88vh;

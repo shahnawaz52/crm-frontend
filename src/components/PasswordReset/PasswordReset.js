@@ -1,7 +1,7 @@
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import PropTypes from 'prop-types';
 
-const PasswordReset = ({handleOnChange, handleOnResetSubmit, handleFormSwitch, email}) => {
+const PasswordReset = ({ handleOnChange, handleOnResetSubmit, handleFormSwitch, email }) => {
 
     return (
         // <div className="jumbotron container-fluid container">
